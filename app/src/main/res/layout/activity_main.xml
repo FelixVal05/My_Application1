@@ -370,7 +370,8 @@
                 android:text="FASILITAS UTAMA KAMPUS"
                 android:textColor="#334155"
                 android:textSize="12sp"
-                android:textStyle="bold" />
+                android:textStyle="bold">
+            </TextView>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -442,15 +443,185 @@
                     android:textColor="#64748B"
                     android:textSize="12sp">
                 </TextView>
+                x
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:id="@+id/sec_goals">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUSTAINABLE DEVELOPMENT GOALS (SDGs)"
+                android:textColor="#334155"
+                android:textSize="12sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_modern_card_rounded"
+                android:elevation="2dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dengan kegiatan dan kolaborasi dalam bidang pendidikan, organisasi, pengabdian masyarakat, hingga festival, UK Petra terus-menerus berkontribusi dan berpatisipasi dalam menjalankan Sustainable Development Goals"
+                    android:textColor="#64748B"
+                    android:textSize="12sp">
+                </TextView>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:background="#E2E8F0"
                     android:layout_marginVertical="12dp">
                 </View>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:background="#FF0000"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="6dp">
+                    </TextView>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="No Poverty"
+                            android:textColor="#0F172A"
+                            android:textSize="14sp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="Mengakhiri kemiskinan dalam segala bentuk"
+                            android:textColor="#64748B"
+                            android:textSize="12sp">
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#E2E8F0"
+                    android:layout_marginVertical="12dp">
+                </View>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:background="#4C9F38"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="6dp">
+                    </TextView>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Good Health and Well-being"
+                            android:textColor="#0F172A"
+                            android:textSize="14sp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="Kehidupan sehat dan peningkatan kesejahteraan"
+                            android:textColor="#64748B"
+                            android:textSize="12sp">
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#E2E8F0"
+                    android:layout_marginVertical="12dp">
+                </View>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:background="#FF6927"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="6dp">
+                    </TextView>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Industry, Innovation, and Infrastructure"
+                            android:textColor="#0F172A"
+                            android:textSize="14sp"
+                            android:textStyle="bold">
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="Infrastruktur tangguh dan inovasi teknologi"
+                            android:textColor="#64748B"
+                            android:textSize="12sp">
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#E2E8F0"
+                    android:layout_marginVertical="12dp">
+                </View>
             </LinearLayout>
-
         </LinearLayout>
+
 
     </LinearLayout>
 
